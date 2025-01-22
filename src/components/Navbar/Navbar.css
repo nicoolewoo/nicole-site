@@ -1,0 +1,29 @@
+nav { /*nav links */
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #333;
+}
+
+nav ul { /*list of items*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+nav a:hover {
+    color: #A9A9A9;
+}
