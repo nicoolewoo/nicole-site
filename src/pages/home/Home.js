@@ -1,10 +1,16 @@
 import React from 'react';
+import Draggable from '.../components/Draggable.js'; 
 
 const Home = () => {
   return (
     <div>
       <h1>Home Page</h1>
-      <p>Welcome to my website!</p>
+      <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+        jjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhh
+        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\
+        jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+
+      </p>
     </div>
   );
 };
