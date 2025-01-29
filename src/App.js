@@ -6,7 +6,6 @@ import Home from './pages/home/Home.js';
 import Navbar from './components/Navbar/Navbar.js';
 import Experience from './pages/experience/Experience.js';
 import Resume from './pages/resume/Resume.js';
-import Draggable from './components/Draggable.js';
 
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
         <Route path='/experience' element={<Experience />} />
         <Route path='/resume' element={<Resume />} />
       </Routes>
-      <Draggable />
     </div>
   );
 };

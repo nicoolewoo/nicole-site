@@ -1,16 +1,12 @@
 import React from 'react';
-import Draggable from '.../components/Draggable.js'; 
+import Draggable from '../../components/Draggable.js'; 
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-        jjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhh
-        hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh\
-        jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-
+    <div style={{ position: 'relative', height: '100vh', width: '100vw' }}>
+      <p style={{ fontSize: '20px' }}>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh jjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhh
       </p>
+      <Draggable />
     </div>
   );
 };
